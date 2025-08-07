@@ -15,9 +15,7 @@ namespace YouShouldTalk
             var root = Directory.GetCurrentDirectory();
             var answer = "";
             var env = DotEnv.Read();
-            Console.WriteLine(root);
             var apiKey = env["GOOGLE_API_KEY"];
-            //var apiKey = "AIzaSyAjF54cRKauxE-0KQJXDY3puuNtgO89z3I";
             bool running = true;
             while (running)
             {
